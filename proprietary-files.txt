@@ -133,8 +133,6 @@ lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so
 lib64/libadsprpc_system.so
 lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so
-lib64/libbluetooth_qti.so
-lib64/libbtconfigstore.so
 lib64/libcdsprpc_system.so
 lib64/libFileMux.so
 lib64/libframeextension.so
@@ -179,7 +177,6 @@ lib64/motorola.hardware.vibrator@1.0.so
 lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so
 lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so
 lib/libadsprpc_system.so
-lib/libbluetooth_qti.so
 lib/libcdsprpc_system.so
 lib/libFileMux.so
 lib/libframeextension.so
