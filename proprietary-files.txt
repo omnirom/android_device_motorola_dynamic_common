@@ -126,7 +126,7 @@ framework/audiosphere.jar
 -framework/com.motorola.motosignature.jar
 -framework/com.qti.snapdragon.sdk.display.jar
 framework/izat.xt.srv.jar
--framework/qcom-moto-telephony-ext.jar
+-framework/qcom-moto-telephony-ext.jar|7046892a584cdbfe22edd68d268609f379836af5
 -framework/UxPerformance.jar
 -framework/QPerformance.jar
 lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so
@@ -228,7 +228,6 @@ lib/motorola.hardware.vibrator@1.0.so
 lib/rfsa/adsp/libsns_device_mode_skel.so
 lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
 -product/app/datastatusnotification/datastatusnotification.apk
 -product/app/DynamicDDSService/DynamicDDSService.apk
 -product/app/embms/embms.apk
@@ -257,7 +256,7 @@ product/etc/sysconfig/whitelist_com.motorola.omadm.vzw.xml
 -product/framework/com.qualcomm.qti.uceservice-V2.1-java.jar
 product/framework/embmslibrary.jar
 -product/framework/qcrilhook.jar
--product/framework/qti-telephony-common.jar|74adbf98e89531ac385ab5c4cea3c2549a0d24b0
+-product/framework/qti-telephony-common.jar|f83942f084745ea741266d899c3869b96e4f0d86
 -product/framework/QtiTelephonyServicelibrary.jar
 product/framework/uimservicelibrary.jar
 product/framework/vendor.qti.data.factory-V1.0-java.jar
@@ -508,6 +507,6 @@ product/lib/vendor.qti.imsrtpservice@2.1.so
 product/lib/vendor.qti.imsrtpservice@2.1.so
 product/lib/vendor.qti.latency@2.0.so
 -product/priv-app/atfwd/atfwd.apk
--product/priv-app/ims/ims.apk|efacc9fa87dc44f2773ea15ff124a66e0ef18cdd
+-product/priv-app/ims/ims.apk|61a632c8e5cbcc4e7d112d4a30abc805f31c1d59
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
