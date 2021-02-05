@@ -22,5 +22,11 @@
     "repository": "android_vendor_qcom_opensource_bluetooth-commonsys-intf",
     "target_path": "vendor/qcom/opensource/commonsys-intf/bluetooth",
     "revision": "android-11"
+  },
+  {
+    "remote": "github",
+    "repository": "boulzordev/android_packages_apps_MotoActions",
+    "target_path": "packages/apps/MotoActions",
+    "revision": "android-11"
   }
 ]
