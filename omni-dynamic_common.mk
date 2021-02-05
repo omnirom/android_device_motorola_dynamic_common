@@ -66,3 +66,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     vendor.camera.aux.packagelist=com.android.settings,com.motorola.camera2,com.motorola.camera3
 
 $(call inherit-product, vendor/motorola/dynamic_common/dynamic_common-vendor.mk)
+
+ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.secure=0 \
+    ro.adb.secure=0
+
+BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 268435456
+BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 268435456
+endif
