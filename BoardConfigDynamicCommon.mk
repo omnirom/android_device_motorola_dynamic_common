@@ -93,7 +93,7 @@ PRODUCT_FULL_TREBLE := true
 BOARD_VNDK_VERSION := current
 BOARD_VNDK_RUNTIME_DISABLE := false
 
-
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/recovery_dynamic_partition.fstab
 
 # AVB
 BOARD_AVB_ENABLE := true
