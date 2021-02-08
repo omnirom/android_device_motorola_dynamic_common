@@ -164,3 +164,4 @@ ro.mot.build.version.release=30.201
 ro.treble.enabled=true
 net.bt.name=Android
 ro.vendor.qti.va_aosp.support=1
+sys.vendor.qti.servicetracker.disable=true
