@@ -454,4 +454,5 @@ product/lib/vendor.qti.latency@2.0.so
 -product/priv-app/atfwd/atfwd.apk
 -product/priv-app/ims/ims.apk|61a632c8e5cbcc4e7d112d4a30abc805f31c1d59
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-product/app/FMPlayer/FMPlayer.apk
 
