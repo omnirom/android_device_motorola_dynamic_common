@@ -127,11 +127,13 @@ framework/izat.xt.srv.jar
 -framework/UxPerformance.jar
 -framework/QPerformance.jar
 lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so
+lib64/fm_helium.so
 lib64/libadsprpc_system.so
 lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so
 lib64/libcdsprpc_system.so
 lib64/libFileMux.so
+lib64/libfm-hci.so
 lib64/libframeextension.so
 lib64/liblocationservice_jni.so
 lib64/libmdsprpc_system.so
