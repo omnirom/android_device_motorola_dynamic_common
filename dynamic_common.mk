@@ -99,6 +99,13 @@ PRODUCT_PACKAGES +=  \
     libbtconfigstore \
     libbluetooth_qti
 
+# FM
+PRODUCT_PACKAGES += \
+    libqcomfm_jni \
+    qcom.fmradio
+
+PRODUCT_BOOT_JARS += qcom.fmradio
+
 # Live Wallpapers
 PRODUCT_PACKAGES += \
     LiveWallpapers \
