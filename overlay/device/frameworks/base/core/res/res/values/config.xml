@@ -61,7 +61,6 @@
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_unplugTurnsOnScreen">true</bool>
-    <bool name="config_enableWifiDisplay">true</bool>
     <bool name="config_displayBlanksAfterDoze">false</bool>
     <bool name="skip_restoring_network_selection">true</bool>
     <integer name="config_multiuserMaximumUsers">4</integer>
