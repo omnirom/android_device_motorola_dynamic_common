@@ -33,10 +33,14 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/motorola/dynamic_common/prebuilt/ramdisk,ramdisk)
 
 AB_OTA_PARTITIONS += \
-    boot \
     system \
     vbmeta \
     product
+
+ifeq ($(PRODUCT_BUILD_BOOT_IMAGE),)
+AB_OTA_PARTITIONS += \
+    boot
+endif
 
 ifeq ($(PRODUCT_BUILD_SYSTEM_EXT_IMAGE),true)
 AB_OTA_PARTITIONS += \
