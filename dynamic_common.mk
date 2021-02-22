@@ -32,21 +32,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/motorola/dynamic_common/prebuilt/permissions,system/etc/permissions) \
     $(call find-copy-subdir-files,*,device/motorola/dynamic_common/prebuilt/ramdisk,ramdisk)
 
-AB_OTA_PARTITIONS += \
-    system \
-    vbmeta \
-    product
-
-ifeq ($(PRODUCT_BUILD_BOOT_IMAGE),)
-AB_OTA_PARTITIONS += \
-    boot
-endif
-
-ifeq ($(PRODUCT_BUILD_SYSTEM_EXT_IMAGE),true)
-AB_OTA_PARTITIONS += \
-    system_ext
-endif
-
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
