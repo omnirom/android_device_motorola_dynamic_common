@@ -106,6 +106,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SnapdragonCamera2
 
+# Configstore
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.capabilityconfigstore@1.0 \
+    vendor.qti.hardware.capabilityconfigstore-V1.0-java
+
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport \
